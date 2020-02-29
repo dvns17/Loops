@@ -59,12 +59,23 @@ while k > 50:
 '''For Loops'''
 #4) Create a list named sports. Put three sports into the list. Create
 #   a for loop that prints each sport in the list
-
+sports = ["soccer", "judo", "football"]
+for sport in sports:
+    print(sport)
+    
 #5) Create a for loop that loops through each letter in a string of one of your
 #   favorite songs. Each iteration should print should a letter of the word. 
-
+jayp = [" ", "2","n","d"," ","t","h","o","t","s"]
+for jay in jayp:
+    print(jay)
+    
 #6) Create a list named movies. Put five of your favorite movies into the list.
 #   However, make sure one of the movies is Avatar. 
 #   Create a for loop that iterates over the list. In the loop print the movie
 #   being looped over, but create an if statement that breaks out of the 
 #   loop if it is Avatar.
+movies = ["big hero 6","the hate u give","avatar"]
+for movie in movies:
+    print(movie)
+    if movie == "avatar":
+        break
